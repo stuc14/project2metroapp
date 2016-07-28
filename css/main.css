@@ -1,0 +1,363 @@
+body {
+	margin: 0 auto;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+    height: 17%;
+    width: 100%;
+    background-color: black;
+    z-index: 150;
+}
+
+nav a.logo {
+	color: white;
+	display: inline-block;
+	background-color: red;
+	margin-left: 10%;
+	text-decoration: none;
+	font-size: 20px;
+    text-align: center;
+    padding: 11px;
+}
+
+nav ul {
+	float: right;
+	width: 55%;
+	height: 71%;
+	margin-bottom: 0;
+}
+
+nav li {
+	display: inline-block;
+	width: 16%;
+	text-align: center;
+	height: 100%;
+}
+
+nav li a {
+	color: white;
+	text-decoration: none;
+	font-size: 21px;
+}
+
+#constant {
+	border-bottom: 3px solid white;
+
+}
+
+nav li:hover {
+	border-bottom: 3px solid white;
+
+}
+
+header {
+	position: relative;
+	top: 67px;
+	background-color: black;
+    height: 550px;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+	margin: 0 26%;
+	padding: 10% 0 2%;
+	font-size: 50px;
+	line-height: 1.5;
+
+}
+
+button {
+	height: 8%;
+    width: 15%;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+}
+
+button .fa {
+	font-size: 15px;
+	padding-right: 2%;
+	color: white;
+}
+
+header .fa {
+	padding-top: 1%;
+}
+
+.develop {
+	position: relative;
+    top: 67px;
+}
+
+.develop h2 {
+	padding: 2% 2% 1%;
+    text-align: center;
+    margin: 2% 15% 1%;
+    font-size: 30px;
+    line-height: 2;
+}
+
+#red-button {
+	color: white;
+	background-color: red;
+	width: 15%;
+	padding: 1%;
+	display: block;
+    margin-left: 43%;
+    margin-bottom: 1%;
+}
+
+.featured {
+	display: inline-block;
+	width: 700px;
+	height: 465px;
+	float: left;
+	color: white;
+    background-color: red;
+    padding: 15% 0 3% 0;
+	border-right: 3px solid red;
+}
+
+.model-s {
+	display: inline-block;
+	width: 698px;
+	height: 239px;	
+	float: right;
+	color: white;
+    background-color: black;
+    padding-top: 8%;
+    border-left: 3px solid black;
+    border-bottom: 1px solid white;
+}
+
+.curiosity {
+	display: inline-block;
+	width: 698px;
+	height: 239px;
+	float: right;
+	padding: 8% 0 1% 0;
+	color: white;
+	background-color: black;
+	border-left: 3px solid black;
+}
+
+.develop h3 {
+	margin: 2% 10%;
+}
+
+.develop h4 {
+	margin: 2% 10%;
+	font-size: 30px;
+}
+
+.develop p {
+	width: 55%;
+    margin: 5% 10%;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.bottom h5 {
+	position: relative;
+    left: 42%;
+    width: 15%;
+    height: 35px;
+    text-align: center;
+    border-bottom: 3px solid white;
+    color: white;
+    margin: 0;
+}
+
+.bottom {
+	position: relative;
+    top: 710px;
+    background-color: black;
+    height: 50px;
+}
+
+.info {
+	position: relative;
+    top: 770px;
+}
+
+#cubes {
+	display: inline-block;
+    padding: 1% 2%;
+    width: 35%;
+    position: absolute;
+    left: 10%;
+    line-height: 2;
+}
+#cubes .fa {
+	color: red;
+}
+
+.kingdom {
+	display: inline-block;
+    padding: 1% 2%;
+    width: 35%;
+    position: absolute;
+    right: 6%;
+    line-height: 2;
+}
+
+.kingdom .fa {
+	color: red;
+}
+
+.connected {
+	display: inline-block;
+    margin: 0 41% 0 11%;
+    position: relative;
+    bottom: 390px;
+}
+.connected h4 {
+	font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.media {
+	position: relative;
+    bottom: 390px;
+    margin-left: 151px;
+}
+
+.media a {
+	color: white;
+	text-decoration: none;
+}
+
+.media h5 {
+	color: white;
+	font-size: 18px;
+}
+
+#behance {
+	background-color: #30282a;
+    display: inline-block;
+    padding: 5%;
+    margin-right: 4%;
+    text-align: center;
+
+}
+
+#facebook {
+	background-color: #30282a;
+    display: inline-block;
+    padding: 5%;
+    margin-right: 4%;
+    text-align: center;
+}
+
+#pinterest {
+	background-color: #30282a;
+    display: inline-block;
+    padding: 5%;
+    margin-right: 4%;
+    text-align: center;
+
+}
+
+#linkedin {
+	background-color: #30282a;
+    display: inline-block;
+    padding: 5%;
+    margin-right: 4%;
+    text-align: center;
+}
+
+.address {
+	position: relative;
+    top: 400px;
+    text-align: center;
+}
+
+.location {
+	padding: 5% 35%;
+	height: 280px;
+	background-color: black;
+}
+
+address {
+	line-height: 3;
+    padding: 13% 0;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+address .fa {
+	display: inline-block;
+    position: relative;
+    bottom: 40px;
+    left: 65px;
+    color: white;
+    font-size: 30px;
+}
+
+footer {
+	position: relative;
+    top: 430px;
+    margin: 0 15%
+}
+
+.column1 {
+	display: inline-block;
+    padding: 0 2%;
+    margin: 0 5% 0 9%;
+}
+
+.column2 {
+	display: inline-block;
+    padding: 0 2%;
+    margin: 0 5%;
+    position: relative;
+    bottom: 11px;
+}
+
+.column2 ul {
+	display: inline-block;
+	padding-left: 25px;
+}
+
+.column3 {
+	display: inline-block;
+	margin: 0 5%;
+	padding: 0 2%;
+}
+
+footer ul {
+	list-style-type: none;
+	padding: 0;
+	line-height: 1.5;
+    font-size: 13px
+}
+
+hr {
+	border: 4px solid black;
+}
+
+hr:nth-child(4) {
+	border: 1px solid black;
+}
+
+.last {
+	font-size: 14px;
+	padding-bottom: 5%;
+}
+
+.last ul {
+	float: right;
+	font-size: 14px;
+	margin: 0;
+}
+
+.last li {
+	display: inline;
+	padding: 2px 15px;
+}
